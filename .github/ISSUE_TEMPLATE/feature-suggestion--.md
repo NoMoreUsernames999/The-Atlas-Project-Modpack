@@ -27,15 +27,15 @@ The different suggestion categories are:
 --->
 
 ## **What category does your suggestion fall under?**
-\<"replace text and quotes only"\>
+replaceText
 
 ## **Give a detailed and complete description of your suggestion:**
-\<"replace text and quotes only"\>
+replaceText
 
 ## **Why do you think this should be added?**
-\<"replace text and quotes only"\>
+replaceText
 
 **====Everything below is optional====**
 
 ## **Do you have a suggestion as to how this feature should be implemented?**
-\<"replace text and quotes only"\>
+replaceText

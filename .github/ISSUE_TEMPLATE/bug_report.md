@@ -9,6 +9,7 @@ assignees: ''
 
 <!---
 This is the bug report template, use it only to submit bugs. If this is a feature suggestion, go back and use the "enhancement" template.
+When providing logs, you must close the game after the bug happens (if it didn't already crash) and move the latest.log file to your desktop. If you start the game up again, the latest.log will be replaced by a new one containing none of the relevant information!
 
 **The title of this submission must be a brief description of the bug to make it easier to find.***
 
@@ -19,29 +20,32 @@ Before submitting an issue, make sure to search through existing bug reports to 
 --->
 
 ## **Pack version:**
-\<"replace text and quotes only"\>
+replaceText
 
 ## **Forge version:**
-\<"replace text and quotes only"\>
+replaceText
 
 ## **Optifine version if using:**
-\<"replace text and quotes only"\>
+replaceText
 
 ## **Describe the bug in detail:**
-\<"replace text and quotes only"\>
+replaceText
 
 ## **Steps to reproduce:**
 1.
 2.
 3. ....
 
+## **Provide attachments or links to your latest log file, and crash report if your game crashed. We will instantly close any issue that does not provide these files! (Only use a temporary paste site if you can set the "delete after" time to >=1 year):**
+(replace with URL's, or N/A if using attachments). 
+
 **====The below fields are optional====**
 
 ## **Expected behavior:**
-\<"replace text and quotes only"\>
+replaceText
 
 ## **Current behavior:**
-\<"replace text and quotes only"\>
+replaceText
 
 ## **Is there anything else you want us to know?**
-\<"replace text and quotes only"\>
+replaceText
