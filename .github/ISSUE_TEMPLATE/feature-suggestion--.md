@@ -9,11 +9,17 @@ assignees: ''
 ---
 
 <!---
-This is the suggestion template. It is for suggesting features or gameplay changes, not mods. If you want to suggest a mod, do so through the Discord because it will likely not be accepted and we don't need the issue tracker cluttered. 
+This is the suggestion template. It is for suggesting features or gameplay changes, not mods. If you want to suggest a mod, do so through the Discord because it will likely not be accepted save for rare circumstances, and we don't need the issue tracker cluttered. 
 
-**The title of this issue should be a brief description of your suggestion to make it easier to find, with the beginning being the name of a suggestion category inside brackets "[]".**
+===================================
+# The title of this issue should be a brief description of your suggestion to make it easier to find, with 
+# the beginning being the name of a suggestion category inside brackets "[]".
+# You must assign your submission to a project in the menu bar to the right!
+# Click on projects, repository, and then on "bug tracking" if this is a bug report, or "project 
+# organization" if this is a suggestion. This helps us organize them.
+===================================
 
-Please use the formatting and provide the requested information. If you do not, your issue will simply be ignored and closed. You may be asked by a dev to provide additional information. If you do not provide additional information within a reasonable window of time, your issue will also be closed. 
+Please provide the requested information. If you do not, your issue will simply be ignored and closed. You may be asked by a dev to provide additional information. If you do not provide additional information within a reasonable window of time, your issue will also be closed. 
 
 Make sure to look at existing suggestions using the search feature so that you don't make duplicate suggestions. 
 
