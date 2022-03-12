@@ -1,11 +1,11 @@
 # The-Expanse-Modpack
-## Repository for the dev team of The Expanse Modpack. Also for bug reports. 
-See to do list at the bottom. 
+**Repository for the dev team of The Expanse Modpack. Also for bug reports.** 
+See the to-do list at the bottom. 
 
 
 ===============================================
 
-##### Remember to make any new txt files you create plain text! Json, .book, cfg, etc must all be plain text files!
+## Remember to make any new txt files you create plain text! Json, .book, cfg, etc must all be plain text files!
 
 So, I would like to start off by saying, for those that haven't used GitHub before, you must check the documentaion linked in the Discord. 
 It is relatively short and explains how to upload files, request your files be merged into the "accepted" files (called a pull request), and how to download individual files for clientside testing. 
@@ -17,7 +17,7 @@ Remember to make sure you check which branch and file path you are currently on 
 ===============================================
 
 
-##### LostBooks:
+## LostBooks:
 
 
 For writers of the team. This is where all .book files go. **Make sure you read the format.txt file** for useful formatting tips and to learn the limitations of the LostBooks mod. 
@@ -37,22 +37,22 @@ The last thing you can do with your books, is control their drop conditions usin
 Note that weight values that are extremely low, like 1, will cause the book to likely never be seen. Check the DropSettings text file in the LostBooks folder for a more detailed explenation of how to do this, and **do not use weights higher than 100.**  
 
 
-##### Flan: 
+## Flan: 
 
 
 If you have experience editing flan packs, then you know what this is for. If you have not been assigned to this folder, don't touch it. It's rather complicated and will be mostly handled by me. 
 
 
-##### Scripts: 
+## Scripts: 
 
 
-For all the script files. **FILES UPLOADED HERE MUST END WITH THE .TXT EXTENSION OR THEY WON'T BE APPROVED!** You will have to change the extention to just .zs when you download the file for client use. 
+For all the script files. **FILES UPLOADED HERE MUST END WITH THE EXTENDED .zs.txt EXTENSION OR THEY WON'T BE APPROVED!** You will have to change the extention to just .zs when you download the file for client use. 
 If you are adding a new script file that doesn't already exist, each mod or major function should have its own file. E.g any removals or modifications to Minecraft recipes should go in Minecraft.zs, Thermal expansion in Thermal.zs, etc. For mods like Advanced Rocketry, it may be necessary to seperate its machine recipes into seperate files for each one. Never mix recipes with other script functions, these should each go in their own file (compatSkills, JEI edits, etc). 
 For things that aren't obvious like non recipe scripts, loops, or other functions; remember to add in file comments to make sure other devs reading your scripts know what does what. 
 *Footnote: Where possible, use recipes.remove(<ID>) instead of typing out the full recipe with all its compenents. This abbreviation works in most cases and makes things more readable. Only use the longer removal script that specifies the recipe items if this doesn't work (sometimes it doesn't).*
 
 
-##### Config: 
+## Config: 
 
 
 Obviously where configs go. Make sure to keep file names and file paths if they exist in a subfolder. Do not make edits unless you know what you're doing, and have been assigned. All other mod editing exists in this folder unless otherwise specified. 
