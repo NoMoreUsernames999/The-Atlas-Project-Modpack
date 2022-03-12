@@ -5,7 +5,7 @@ See the to-do list at the bottom.
 
 ===============================================
 
-## Remember to make any new txt files you create plain text! Json, .book, cfg, etc must all be plain text files!
+**Remember to make any new txt files you create plain text! Json, .book, cfg, etc must all be plain text files!**
 
 So, I would like to start off by saying, for those that haven't used GitHub before, you must check the documentaion linked in the Discord. 
 It is relatively short and explains how to upload files, request your files be merged into the "accepted" files (called a pull request), and how to download individual files for clientside testing. 
