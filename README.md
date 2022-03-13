@@ -69,4 +69,5 @@ Current to-do list, Updated as development progresses:
 - [ ] Finalize story. 
 - [ ] Finalize planet designs, names, and progression order. 
 - [ ] Finish resourcepack. 
+- [ ] Figure out how to keep AR stations relevant after obtaining warp drives.
 
