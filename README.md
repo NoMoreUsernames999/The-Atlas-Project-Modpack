@@ -60,6 +60,9 @@ If merging conflicts during a pull request, **make sure you keep correct file fo
 All commits **must** have a description in the notes of what they changed. This is required for any commites that modify files, but is especially important with configs.   
 
 ## TO-DO list 
+  
+  (If you pick something on the list that can only be worked on by one person at a time, state so in the Discord so that people don't waste time. 
+  E.g Doing something like writing or filling in tables on Google Docs doesn't matter as it is updated in real time and can be accessed by multiple people. But doing something like adding mob spawns for a planet in a config does. Wouldn't want two people doing the same thing twice).
 
 Current to-do list, Updated as development progresses:
 
