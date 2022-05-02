@@ -67,12 +67,12 @@ All commits **must** have a description in the notes of what they changed. This 
 Current to-do list, Updated as development progresses:
 
 - [ ] Disable all HBM weapon and explosive recipes that use the assembler. 
-- [ ] Fill in energy production spreadsheet. 
+- [x] Fill in energy production spreadsheet. 
 - [ ] Fill in energy consumption spreadsheet. 
-- [ ] Finalize story. 
+- [x] Finalize story. 
 - [ ] Finalize planet designs, names, and progression order. 
 - [ ] Finish resourcepack. 
-- [ ] Figure out how to keep AR stations relevant after obtaining warp drives.
+- [x] Figure out how to keep AR stations relevant after obtaining warp drives.
 - [ ] Build starting planet. 
 - [ ] Finish music file conversions. 
 
