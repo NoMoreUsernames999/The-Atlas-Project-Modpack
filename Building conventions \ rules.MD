@@ -1,4 +1,5 @@
 # This file covers some guidelines and limitations of the structure mods which must be followed for building.
+If you are experienced with recurrent complex, you can skip 1-3. 
 
 1) Recurrent complex does not support redstone states (powered redstone will spawn as unpowered until toggled again). 
    I am 70% sure that CofH world's nbt structure spawning does, however they are limited to 48x48x48 blocks (haven't tested the redstone with cofh yet, will update when I do). 
