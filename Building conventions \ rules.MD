@@ -27,18 +27,18 @@ If your structure contains any of the following, you MUST have rotation and mirr
 Keep in mind this means it will always generate with the same orientation. Before submitting any structure, you MUST test it by importing it at 90 degree rotation to see if anything breaks. 
 If in a test world, make backups. This will typically corrupt the world if a block isn't supported. I recommend testing import rotation in new worlds. This list will be updated as I find blocks that cause issues: 
    
-   AVP blast doors. 
-   AVP machine blocks.
-   HBM multiblock doors. 
-   All RS gauges and switches.
+  - AVP blast doors. 
+  - AVP machine blocks.
+  - HBM multiblock doors. 
+  - All RS gauges and switches.
 
 
 ## List of blocks that do not support Recurrent complex. These CANNOT BE USED in ANY structures:** 
    
-   HBM doors as follows: 
-   Water door.
-   QE containment door. 
-   Round airlock.
-   Sliding seal door. 
-   Sliding blast door. 
-   Vault tech blast door (Sort of. The only block you can click to open it is the bottom middle. As long as it is accessible it can be used).
+  - HBM doors as follows: 
+  - Water door.
+  - QE containment door. 
+  - Round airlock.
+  - Sliding seal door. 
+  - Sliding blast door. 
+  - Vault tech blast door (Sort of. The only block you can click to open it is the bottom middle. As long as it is accessible it can be used).
