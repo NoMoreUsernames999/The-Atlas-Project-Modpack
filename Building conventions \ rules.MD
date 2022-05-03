@@ -15,7 +15,7 @@
    
 4) The name of your structure should follow this naming convention to make it easier to sort. There will eventually be hundreds if not thousands of structure files and this will save everyone a massive headache. 
    Naming scheme is: "DimensionsName" "Category" "StructureName". Category is the type of structure, e.g any military type structure should be "military" and any generic ruined civilian structures should be "civilian" and so on. 
-   This naming should be one word, and while it can contain upper case, CANNOT contain any sort of special characters. 
+   The naming should be one connected word with no spaces, and while it can contain upper case, CANNOT contain any sort of special characters. So an example of a structure name would be MarsTerrainRockFormationSmall.  
 
 Side note: Because of dynamic block ID, you should not use world edit to export and import structures between worlds unless it contains 100% vanilla blocks (export/import in the same world works fine). 
 Especially with Chisel, they will turn into random broken bs. Use recurrent complex to export/ import between worlds.
