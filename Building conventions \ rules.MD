@@ -17,8 +17,17 @@
    Naming scheme is: "DimensionsName" "Category" "StructureName". Category is the type of structure, e.g any military type structure should be "military" and any generic ruined civilian structures should be "civilian" and so on. 
    The naming should be one connected word with no spaces, and while it can contain upper case, CANNOT contain any sort of special characters. So an example of a structure name would be MarsTerrainRockFormationSmall.  
 
+5) And the most important of all, **structures must have logical and functional layouts.** 
+   What I mean is, the design of a structure should make sense. If someone were to decide to fix it and use it, it should have the possibility for 100% functionality. 
+   So when building for example and making a room inside a structure, what purpose does that room serve? If building a bunker or something, what does a bunker usually have? Etc. 
+   You don't have to be fully realistic and try to include everything in a structure, but avoid making seemingly empty rooms that wouldn't have served a purpose.
+   An example would be building a ruined ship structure that is found in space. A ship should have a control room, an engine room, bunks, etc. Is it a civilian transport? It should have a cargo hold. Gunship? Though not included, it should have space to place actual weapons. 
+   Engine rooms should be big enough to fit actual industrial generators or reactors. Ships using avp blast doors or other stuff that normally requires power should have wiring included. 
+   You get the idea. This ensures all structures are interesting to explore, and should a player decide to fix one up and use it, that it would be fully usable once repaired. 
+
 Side note: Because of dynamic block ID, you should not use world edit to export and import structures between worlds unless it contains 100% vanilla blocks (export/import in the same world works fine). 
-Especially with Chisel, they will turn into random broken bs. Use recurrent complex to export/ import between worlds.
+Especially with Chisel, they will turn into random broken bs. Use recurrent complex to export/ import between worlds. Also obviously don't use valuable blocks, such as metals or expensive machinery, in a structure. 
+For the latter, you can use blocks to build something that looks like the machine or weapon or whatever, but don't include the actual block in the structure and give players large amounts of free resources. 
 
 
 
