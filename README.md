@@ -61,18 +61,15 @@ All commits **must** have a description in the notes of what they changed. This 
 
 ## TO-DO list 
   
-  (If you pick something on the list that can only be worked on by one person at a time, state so in the Discord so that people don't waste time. 
-  E.g Doing something like writing or filling in tables on Google Docs doesn't matter as it is updated in real time and can be accessed by multiple people. But doing something like adding mob spawns for a planet in a config does. Wouldn't want two people doing the same thing twice).
+  When you pick something on the list to do, if it is something that can only be done by a single person at a time, state so in the Discord to notify people that someone is working on the task so that people don't waste time doing the same thing twice. When you pick or finish something from the to-do list, go to the projects tab and move the note card of that task to the appropriate collumn. Please to do this as it helps organize, and organized projects move faster. You can use the below list to see what has been finished at a quick glance, or go to the organization project in the projects tab at the top of the page for more specific info.
 
 Current to-do list, Updated as development progresses:
 
 - [ ] Disable all HBM weapon and explosive recipes that use the assembler. 
-- [x] Fill in energy production spreadsheet. 
+- [ ] Finalize Mars and Earth building style. 
 - [ ] Fill in energy consumption spreadsheet. 
-- [x] Finalize story. 
 - [ ] Finalize planet designs, names, and progression order. 
 - [ ] Finish resourcepack. 
-- [x] Figure out how to keep AR stations relevant after obtaining warp drives.
 - [ ] Build starting planet. 
 - [ ] Finish music file conversions. 
 
