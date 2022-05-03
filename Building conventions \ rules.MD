@@ -1,4 +1,4 @@
-##This file covers some guidelines and limitations of the structure mods which must be followed for building.
+# This file covers some guidelines and limitations of the structure mods which must be followed for building.
 
 1) Recurrent complex does not support redstone states (powered redstone will spawn as unpowered until toggled again). 
    I am 70% sure that CofH world's nbt structure spawning does, however they are limited to 48x48x48 blocks (haven't tested the redstone with cofh yet, will update when I do). 
@@ -22,7 +22,7 @@ Especially with Chisel, they will turn into random broken bs. Use recurrent comp
 
 
 
-####List of blocks that do not support rotation. 
+## List of blocks that do not support rotation. 
 If your structure contains any of the following, you MUST have rotation and mirroring disabled for that structure. 
 Keep in mind this means it will always generate with the same orientation. Before submitting any structure, you MUST test it by importing it at 90 degree rotation to see if anything breaks. 
 If in a test world, make backups. This will typically corrupt the world if a block isn't supported. I recommend testing import rotation in new worlds. This list will be updated as I find blocks that cause issues: 
@@ -33,7 +33,7 @@ HBM multiblock doors.
 All RS gauges and switches.
 
 
-####List of blocks that do not support Recurrent complex. These CANNOT BE USED in ANY structures:** 
+## List of blocks that do not support Recurrent complex. These CANNOT BE USED in ANY structures:** 
 
 HBM doors as follows: 
 Water door.
