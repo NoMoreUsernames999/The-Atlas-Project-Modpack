@@ -14,7 +14,7 @@
    Note that when selecting a structure, the second selection must be at the opposite diagonal corner so it forms a box. 
    
 4) The name of your structure should follow this naming convention to make it easier to sort. There will eventually be hundreds if not thousands of structure files and this will save everyone a massive headache. 
-   Naming scheme is: <DimensionsName><Category><StructureName>. Category is the type of structure, e.g any military type structure should be "military" and any generic ruined civilian structures should be "civilian" and so on. 
+   Naming scheme is: "DimensionsName" "Category" "StructureName". Category is the type of structure, e.g any military type structure should be "military" and any generic ruined civilian structures should be "civilian" and so on. 
    This naming should be one word, and while it can contain upper case, CANNOT contain any sort of special characters. 
 
 Side note: Because of dynamic block ID, you should not use world edit to export and import structures between worlds unless it contains 100% vanilla blocks (export/import in the same world works fine). 
@@ -33,7 +33,7 @@ If in a test world, make backups. This will typically corrupt the world if a blo
   - All RS gauges and switches.
 
 
-## List of blocks that do not support Recurrent complex. These CANNOT BE USED in ANY structures:** 
+## List of blocks that do not support Recurrent complex. These CANNOT BE USED in ANY structures: 
    
   - HBM doors as follows: 
   - Water door.
