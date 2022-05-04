@@ -1,0 +1,106 @@
+{
+    "config_version": {
+        "id": "foo_bar_baz",
+        "version": 1
+    },
+    "dimensions":
+    [
+        {
+            "dim": 101,
+            "world_template": "desert_world",
+            "dimensiontype": {
+                "id": 101,
+                "name": "Desert World",
+                "keeploaded": true,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "arrakis",
+                "RandomSeed": ""
+            },
+            "jed": {
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky"
+                 }
+        },
+        
+        {
+            "dim": 100,
+            "biome": "advancedrocketry:moon",
+            "world_template": "moon_world",
+            "dimensiontype": {
+                "id": 100,
+                "name": "Luna",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "generatorOptions": "{\"useWaterLakes\":false}",
+                "RandomSeed": ""
+            },
+            "jed": {
+                "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky"
+                 }
+        }, 
+
+       {
+            "dim": 102,
+            "dimensiontype": {
+                "id": 102,
+                "name": "Custom mining dimension",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;minecraft:bedrock,62*minecraft:stone,minecraft:grass;1;caves,decoration",
+                "RandomSeed": ""
+            },
+            "chunkgenerator": "ChunkGeneratorFlatJED"
+        },
+
+        {
+            "dim": 103,
+            "dimensiontype": {
+                "id": 103,
+                "name": "Void",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;minecraft:air;1",
+                "GGgeneratorOptions": "3;minecraft:bedrock,63*minecraft:stone,minecraft:grass;1",
+                "SpawnX": 256,
+                "SpawnZ": 256,
+                "GameRules": {
+                    "spawnRadius": "0"
+                }
+            }
+        }, 
+
+         {
+            "dim": 104,
+            "dimensiontype": {
+                "id": 104,
+                "name": "BOP world",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "BIOMESOP",
+                "RandomSeed": ""
+            }
+        },
+
+         {
+            "dim": 1,
+            "unregister": true
+        }
+    ]
+}
