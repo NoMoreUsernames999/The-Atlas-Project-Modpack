@@ -180,7 +180,7 @@ cloaking {
     I:max_energy_stored=500000000
 
     # Maximum distance between cloaking core and any cloaked side
-    I:max_field_radius=63
+    I:max_field_radius=163
 
     # Energy cost per non-air block in a Tier1 cloak
     I:tier1_energy_per_block=32
@@ -728,7 +728,7 @@ ship {
         2000000
         3456
         13824
-        110592
+        19592
      >
 
     # Minimum ship mass (in blocks) for a given tier
@@ -756,13 +756,13 @@ ship {
     # Maximum ship size on each axis in blocks, for a given tier
     I:size_max_per_side_by_tier <
         127
-        24
-        48
-        96
+        164
+        248
+        296
      >
 
     # Maximum ship mass (in blocks) to jump on a planet
-    I:volume_max_on_planet_surface=3000
+    I:volume_max_on_planet_surface=19592
 
     # Minimum ship mass (in blocks) to enter or exit hyperspace without a jumpgate
     I:volume_min_for_hyperspace=4000

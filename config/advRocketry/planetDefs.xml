@@ -1,24 +1,35 @@
 <galaxy>
-    <star name="Sol" temp="100" x="0" y="0" numPlanets="10" numGasGiants="1">
-        <planet name="Planet A">
+    <star name="Sol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="1">
+        <planet name="Earth" DIMID="0" dimMapping="" customIcon="EarthLike">
             <fogColor>1,1,1</fogColor>
             <skyColor>0,0,1</skyColor>
+            <isKnown>True</isKnown>
             <atmosphereDensity>100</atmosphereDensity>
             <gravitationalMultiplier>100</gravitationalMultiplier>
-            <orbitalDistance>1000</orbitalDistance>
+            <orbitalDistance>100</orbitalDistance>
             <orbitalTheta>180</orbitalTheta>
             <rotationalPeriod>24000</rotationalPeriod>
-            <biomeIds>0</biomeIds>
-            <planet name="Planet A moon">
-                <fogColor>1,1,1</fogColor>
+            <planet name="Luna" DIMID="100" dimMapping="" customIcon="Moon">
+                <fogColor>0,0,0</fogColor>
                 <skyColor>1,0.5,0.5</skyColor>
-                <atmosphereDensity>180</atmosphereDensity>
-                <gravitationalMultiplier>100</gravitationalMultiplier>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>50</gravitationalMultiplier>
                 <orbitalDistance>150</orbitalDistance>
                 <orbitalTheta>190</orbitalTheta>
-                <rotationalPeriod>100</rotationalPeriod>
-                <biomeIds>94</biomeIds>
+                <rotationalPeriod>80000</rotationalPeriod>
             </planet>
-        </planet>
+          </planet>
+         <planet name="Stella" DIMID="101" dimMapping="" customIcon="DesertWorld">
+             <fogColor>0.252,0.255,0.109</fogColor>
+             <skyColor>0.252,0.255,0.109</skyColor>
+             <isKnown>False</isKnown>
+             <atmosphereDensity>120</atmosphereDensity>
+             <gravitationalMultiplier>110</gravitationalMultiplier>
+             <orbitalDistance>80</orbitalDistance>
+             <orbitalTheta>90</orbitalTheta>
+             <orbitalPhi>20</orbitalPhi>
+             <rotationalPeriod>10000</rotationalPeriod>
+             <artifact>minecraft:diamond</artifact>
+            </planet>
     </star>
 </galaxy>
