@@ -70,6 +70,6 @@ Current to-do list, Updated as development progresses:
 - [ ] Fill in energy consumption spreadsheet. 
 - [ ] Finalize planet designs, names, and progression order. 
 - [ ] Finish resourcepack. 
-- [ ] Build starting planet. 
+- [x] Build starting planet. 
 - [ ] Finish music file conversions. 
 
