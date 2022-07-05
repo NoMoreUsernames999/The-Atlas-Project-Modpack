@@ -68,7 +68,7 @@ Current to-do list, Updated as development progresses:
 - [ ] Disable all HBM weapon and explosive recipes that use the assembler. 
 - [ ] Finalize Mars and Earth building style. 
 - [ ] Fill in energy consumption spreadsheet. 
-- [ ] Finalize planet designs, names, and progression order. 
+- [x] Finalize planet designs, names, and progression order. 
 - [ ] Finish resourcepack. 
 - [x] Build starting planet. 
 - [ ] Finish music file conversions. 
