@@ -41,6 +41,7 @@ If in a test world, make backups. This will typically corrupt the world if a blo
   - AVP machine blocks.
   - HBM multiblock doors. 
   - All RS gauges and switches.
+  - All blockcraftery blocks (slants, slabs, etc).
 
 
 ## List of blocks that do not support Recurrent complex. These CANNOT BE USED in ANY structures: 
