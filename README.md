@@ -2,8 +2,23 @@
 **Repository for the dev team of The Expanse Modpack. Also for bug reports.** 
 See the to-do list at the bottom. 
 
+===============================================
+
+## Summary of the modpack:
+
+
+"The Expanse" Is a modpack that was born from my frustration with there being a lack of good space packs that properly utilized advanced rocketry and had unique planet designs. 
+The idea for this pack has been "cooking" for a long time now and started serious development at the end of 2021. It takes inspiration from my favorite games, movies, and books. And for those familiar with some of the works, you will notice many references and some similarities in the story.
+This is a questing pack about space exploration and mystery solving, built on a theme of survival and some hints of horror. You will have a relatively peaceful experience in many environments. And when things get tough, Instead of shooting your way through everything, you will usually be forced to run and hide. 
+With a fully integrated storyline, it features a main questline and many minor branching ones, along with a lot of optional lore that you can discover and use to learn about the backstory and world of "The Expanse," should you choose to. The setting takes place in the near future at the cusp of the expansion age that sees humanity take to the stars after the invention of the Epstein drive. A joint project between NASA, SpaceX, and the Weyland Utanni corporation leads to the construction of the first six starships capable of interstellar travel at near light speeds. The Explorer missions are tasked with traveling to one of six potentially habitable star systems, each in hopes of finding a planet suitable for human habitation. It's a 10 year voyage each way, and the risk of death is high. For this reason, the mission only accepts volunteers.
+The player is an engineer and volunteer that is accepted as the third crewmember of Explorer #6. 
+With the hopes of humanity propelling them forward, the crews are put into cryogenic sleep and launched into the void....
+Only for you to awake to the sound of alarms blaring. The player awakens from cryostasis in the ejected control module of their ship to find themselves crash landed on an unknown planet. As the sole survivor, and with no way to contact Earth, you must survive the harsh environment of a new world and figure out what went wrong. With the ship computer corrupted upon impact, you lose most of your blueprint data and must research machinery and technology again to fill in what's missing on your Personal Data Companion, your AI assistant that gives you useful info as you play and acts as a sort of in game wiki and tip provider.
+Research tech and scan salvaged ones from various structures to unlock new recipes in your PDA; explore fully custom built planets on your journey, and uncover what happened through looted newspapers, journals, and data logs.
+Your mission now; Survive and return to Earth.
 
 ===============================================
+
 
 **Remember to make any new txt files you create plain text! Json, .book, cfg, etc must all be plain text files!**
 
