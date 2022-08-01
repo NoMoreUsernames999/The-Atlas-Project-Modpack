@@ -1,1 +1,24 @@
-[]
+[
+{
+    "dimension": 101,
+    "mobs": [
+      {
+        "mob": "fossil:fossil.megalodon",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+{
+    "dimension": 101,
+    "mobs": [
+      {
+        "mob": "rebornmod:entities.mosasaurus",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  } 
+]
