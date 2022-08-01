@@ -19,6 +19,8 @@ Your mission now; Survive and return to Earth.
 
 ===============================================
 
+## (All following sections relevant to dev team only):
+
 
 **Remember to make any new txt files you create plain text! Json, .book, cfg, etc must all be plain text files!**
 
