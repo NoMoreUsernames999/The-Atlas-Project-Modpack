@@ -3,7 +3,9 @@
     "id": "expanse",
     "version": 1
   },
-  "dimensions": [
+
+  "dimensions": 
+  [
     {
         "dim": 1,
         "unregister": true
@@ -13,7 +15,7 @@
         "dim": 100,
         "world_template": "moon_world",
         "dimensiontype": 
-      {
+	    {
           "id": 100,
           "name": "Luna",
           "suffix": "_dim100",
@@ -22,14 +24,14 @@
           "require_exact_match": true
         },
         "jed": 
-      {
+	    {
           "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
            "SkyColor": "000000",
            "CloudHeight": "-100",
            "FogColor": "000000"
         },
       "worldinfo_onetime": 
-      {
+	    {
           "generatorName": "luna",
           "generatorOptions": "{\"useWaterLakes\":false,\"useLavaLakes\":false,\"seaLevel\":1}",
           "RandomSeed": ""
@@ -40,7 +42,7 @@
         "dim": 101,
         "world_template": "mars",
         "dimensiontype": 
-      {
+	    {
           "id": 101,
           "name": "Mars",
           "suffix": "_dim101",
@@ -49,7 +51,7 @@
           "require_exact_match": true
         },
         "jed": 
-     {
+	   {
           "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
            "SkyColor": "fc5d14",
            "CloudHeight": "-100",
@@ -57,7 +59,7 @@
            "CloudColor": "e4f2f7"
         },
       "worldinfo_onetime": 
-     {
+	   {
           "generatorName": "mars",
           "generatorOptions": "{\"useWaterLakes\":false,\"useLavaLakes\":false,\"seaLevel\":1}",
           "RandomSeed": ""
@@ -103,7 +105,7 @@
        "jed": 
   {
           "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-           "SkyColor": "424954",
+            "SkyColor": "424954",
            "CloudHeight": "140",
            "FogColor": "e3ba02",
            "CloudColor": "cf771f"
@@ -124,7 +126,7 @@
       "dimensiontype": {
         "id": 107,
         "name": "Enceladus",
-        "suffix": "_dim107",
+        "suffix": "_dim154",
         "keeploaded": false,
         "worldprovider": "WorldProviderSurfaceJED",
         "require_exact_match": true
@@ -175,97 +177,13 @@
       }
     },
 
-    {
-      "dim": 109,
-      "dimensiontype": {
-        "id": 109,
-        "name": "Arrakis",
-        "suffix": "_dim109",
-        "keeploaded": false,
-        "worldprovider": "WorldProviderSurfaceJED",
-        "require_exact_match": true
-      },
-       "jed": 
-  {
-          "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-           "SkyColor": "f7e1ba",
-           "CloudHeight": "150",
-           "CloudColor": "d7d8d9",
-           "FogColor": "c4aa95"
-        },
-      "worldinfo_onetime": {
-        "generatorName": "arrakis",
-        "generatorOptions": "{\"useWaterLakes\":false,\"useLaterLakes\":false,\"seaLevel\":20}",
-        "SpawnX": 0,
-        "SpawnZ": 0,
-        "GameRules": {
-          "spawnRadius": "0"
-        }
-      }
-    },
 
-    {
-      "dim": 110,
-      "dimensiontype": {
-        "id": 110,
-        "name": "Chibirus",
-        "suffix": "_dim110",
-        "keeploaded": false,
-        "worldprovider": "WorldProviderSurfaceJED",
-        "require_exact_match": true
-      },
-       "jed": 
-  {
-          "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-           "SkyColor": "ff6969",
-           "CloudHeight": "135",
-           "CloudColor": "9763ba",
-           "FogColor": "ffb882"
-        },
-      "worldinfo_onetime": {
-        "generatorName": "chibirus",
-        "generatorOptions": "{\"useWaterLakes\":false,\"useLaterLakes\":false,\"seaLevel\":1}",
-        "SpawnX": 0,
-        "SpawnZ": 0,
-        "GameRules": {
-          "spawnRadius": "0"
-        }
-      }
-    },
-
-    {
-      "dim": 111,
-      "dimensiontype": {
-        "id": 111,
-        "name": "Pythrea",
-        "suffix": "_dim111",
-        "keeploaded": false,
-        "worldprovider": "WorldProviderSurfaceJED",
-        "require_exact_match": true
-      },
-       "jed": 
-  {
-          "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
-           "SkyColor": "05fce8",
-           "CloudHeight": "170",
-           "CloudColor": "65f7ee",
-           "FogColor": "8cf6fa"
-        },
-      "worldinfo_onetime": {
-        "generatorName": "pythrea",
-        "generatorOptions": "{\"useWaterLakes\":false,\"useLaterLakes\":false,\"seaLevel\":77}",
-        "SpawnX": 0,
-        "SpawnZ": 0,
-        "GameRules": {
-          "spawnRadius": "0"
-        }
-      }
-    },
 
    {
         "dim": 102,
+        "world_template": "torus3",
         "dimensiontype": 
-     {
+	   {
           "id": 102,
           "name": "Cytan",
           "suffix": "_dim101",
@@ -274,7 +192,7 @@
           "require_exact_match": true
         },
         "jed": 
-     {
+	   {
           "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
           "SkyColor": "dea65d",
           "CloudHeight": "200",
@@ -282,7 +200,7 @@
           "CloudColor": "c4916a"
         },
       "worldinfo_onetime": 
-      {
+	    {
           "generatorName": "torus3",
           "generatorOptions": "{\"useWaterLakes\":false,\"useLavaLakes\":false,\"seaLevel\":1}",
           "RandomSeed": ""
@@ -341,5 +259,94 @@
           "RandomSeed": ""
         }
     },
+
+     {
+      "dim": 109,
+      "dimensiontype": {
+        "id": 109,
+        "name": "Arrakis",
+        "suffix": "_dim109",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+       "jed": 
+  {
+          "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+           "SkyColor": "f7e1ba",
+           "CloudHeight": "150",
+           "CloudColor": "d7d8d9",
+           "FogColor": "c4aa95"
+        },
+      "worldinfo_onetime": {
+        "generatorName": "arrakis",
+        "generatorOptions": "{\"useWaterLakes\":false,\"useLaterLakes\":false,\"seaLevel\":20}",
+        "SpawnX": 0,
+        "SpawnZ": 0,
+        "GameRules": {
+          "spawnRadius": "0"
+        }
+      }
+    },
+
+     {
+      "dim": 110,
+      "dimensiontype": {
+        "id": 110,
+        "name": "Chibirus",
+        "suffix": "_dim110",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+       "jed": 
+  {
+          "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+           "SkyColor": "ff6969",
+           "CloudHeight": "135",
+           "CloudColor": "d68a4f",
+           "FogColor": "9656c7"
+        },
+      "worldinfo_onetime": {
+        "generatorName": "chibirus",
+        "generatorOptions": "{\"useWaterLakes\":false,\"useLaterLakes\":false,\"seaLevel\":1}",
+        "SpawnX": 0,
+        "SpawnZ": 0,
+        "GameRules": {
+          "spawnRadius": "0"
+        }
+      }
+    },
+
+    {
+      "dim": 111,
+      "dimensiontype": {
+        "id": 111,
+        "name": "Pythrea",
+        "suffix": "_dim111",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+       "jed": 
+  {
+          "SkyRenderer": "zmaster587.advancedRocketry.client.render.planet.RenderPlanetarySky",
+          "SkyColor": "05fce8",
+           "CloudHeight": "170",
+           "CloudColor": "65f7ee",
+           "FogColor": "8cf6fa"
+        },
+      "worldinfo_onetime": {
+        "generatorName": "pythrea",
+        "generatorOptions": "{\"useWaterLakes\":false,\"useLaterLakes\":false,\"seaLevel\":78}",
+        "SpawnX": 0,
+        "SpawnZ": 0,
+        "GameRules": {
+          "spawnRadius": "0"
+        }
+      }
+    },
+
+    {}
   ]
 }
