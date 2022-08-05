@@ -89,4 +89,6 @@ Current to-do list, Updated as development progresses:
 - [ ] Finish resourcepack. 
 - [x] Build starting planet. 
 - [ ] Finish music file conversions. 
+- [ ] Create text log console interface program for ComputerCraft. 
+- [ ] Create missile targeting calculator program for manual target designators. 
 
