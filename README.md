@@ -91,4 +91,9 @@ Current to-do list, Updated as development progresses:
 - [ ] Finish music file conversions. 
 - [ ] Create text log console interface program for ComputerCraft. 
 - [ ] Create missile targeting calculator program for manual target designators. 
-
+- [ ] Test AR oxygen system in warp space. 
+- [ ] Test jumping with AR oxygen. 
+- [ ] Test Reborn mobs latency with high mob counts. 
+- [ ] Test AR station dimension latency and observatories. 
+- [ ] Test AR rocket entity tps. 
+- [ ] Test deep space tps while jumping with Recurrent Complex and CofH generating asteroids instead of wwarp. 
