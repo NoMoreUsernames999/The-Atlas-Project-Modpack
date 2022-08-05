@@ -96,4 +96,9 @@ Current to-do list, Updated as development progresses:
 - [ ] Test Reborn mobs latency with high mob counts. 
 - [ ] Test AR station dimension latency and observatories. 
 - [ ] Test AR rocket entity tps. 
-- [ ] Test deep space tps while jumping with Recurrent Complex and CofH generating asteroids instead of wwarp. 
+- [ ] Test deep space tps while jumping with Recurrent Complex and CofH generating asteroids instead of warp.
+- [ ] Test squid spawning with PVJ squid block enabled, and with squid spawning replaced with inControl. 
+- [ ] Test all HBM machines (and doors) with warpdrive jumping and rotation. Report seperately and condition of multiblocks post jump.
+- [ ] Test tps with pumps that physically consume water. 
+- [ ] Test spiegers pregenerator with all DIMs. 
+- [ ] Test HBM geysers in unloaded chunks causing extreme particle lag when reloaded after a while, issue #14: https://github.com/TheOriginalGolem/Hbm-s-Nuclear-Tech-GIT/issues/14 
