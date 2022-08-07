@@ -102,3 +102,5 @@ Current to-do list, Updated as development progresses:
 - [ ] Test tps with pumps that physically consume water. 
 - [ ] Test spiegers pregenerator with all DIMs. 
 - [ ] Test HBM geysers in unloaded chunks causing extreme particle lag when reloaded after a while, issue #14: https://github.com/TheOriginalGolem/Hbm-s-Nuclear-Tech-GIT/issues/14 
+- [ ] Test reproducing issues related to JEID to confirm safe use: DimensionalDevelopment/JustEnoughIDs
+ 
