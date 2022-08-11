@@ -4,6 +4,18 @@ See the to-do list at the bottom.
 
 ===============================================
 
+
+### Links to each section:
+
+- [Intro](#all-following-sections-relevant-to-dev-team-only)
+- [Lost Books](#lostbooks)
+- [Flan's](#flan)
+- [Scripts](#scripts)
+- [Config](#config)
+- [To-Do List](#to-do-list)
+
+===============================================
+
 ## Summary of the modpack:
 
 
@@ -33,15 +45,6 @@ Remember to make sure you check which branch and file path you are currently on 
 
 ===============================================
 
-### Links to each section:
-
-- [Lost Books](#lostbooks)
-- [Flan's](#flan)
-- [Scripts](#scripts)
-- [Config](#config)
-- [To-Do List](#to-do-list)
-
-===============================================
 
 
 ## LostBooks:
