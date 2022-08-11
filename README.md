@@ -78,7 +78,9 @@ All commits **must** have a description in the notes of what they changed. This 
 
 ## TO-DO list 
   
-  When you pick something on the list to do, if it is something that can only be done by a single person at a time, state so in the Discord to notify people that someone is working on the task so that people don't waste time doing the same thing twice. When you pick or finish something from the to-do list, go to the projects tab and move the note card of that task to the appropriate collumn. Please to do this as it helps organize, and organized projects move faster. You can use the below list to see what has been finished at a quick glance, or go to the organization project in the projects tab at the top of the page for more specific info.
+  When you pick something on the list to do, if it is something that can only be done by a single person at a time, state so in the Discord to notify people that someone is working on the task so that people don't waste time doing the same thing twice (Does not apply to "Test" tasks. The more people testing something, the better). When you pick or finish something from the to-do list, go to the projects tab and move the note card of that task to the appropriate collumn. Please do this as it helps organize, and organized projects move faster. You can use the below list to see what has been finished at a quick glance, or go to the organization project in the projects tab at the top of the page for more specific info on certain tasks.
+Beta testers should report the results of any tests they do in the Discord's "Discussion-E" channel. The more detailed your descriptions, the better. Any bugs testers discover should be reported here in the issue tracker. 
+
 
 Current to-do list, Updated as development progresses:
 
