@@ -115,7 +115,7 @@ Beta testers should report the results of any tests they do in the Discord's "Di
 - [ ] Test squid spawning with PVJ squid block enabled, and with squid spawning replaced with inControl. 
 - [ ] Test all HBM machines (and doors) with warpdrive jumping and rotation. Report seperately and condition of multiblocks post jump.
 - [ ] Test tps with pumps that physically consume water. 
-- [ ] Test spiegers pregenerator with all DIMs. 
+- [ ] Test ~~spiegers~~ Forge pregenerator with all DIMs. 
 - [ ] Test HBM geysers in unloaded chunks causing extreme particle lag when reloaded after a while, issue #14 (fixed in last PR, test to confirm issue is fixed): https://github.com/TheOriginalGolem/Hbm-s-Nuclear-Tech-GIT/issues/14 
 - [ ] Test reproducing issues related to JEID to confirm safe use: https://github.com/DimensionalDevelopment/JustEnoughIDs/issues
 - [ ] Test hill variant biome generation to confirm whether local issue [#14](https://github.com/NoMoreUsernames999/The-Expanse-Modpack/issues/14) is a bug or not.
