@@ -33,6 +33,16 @@ Remember to make sure you check which branch and file path you are currently on 
 
 ===============================================
 
+### Links to each section:
+
+- [Lost Books](#lostbooks)
+- [Flan's](#flan)
+- [Scripts](#scripts)
+- [Config](#config)
+- [To-Do List](#to-do-list)
+
+===============================================
+
 
 ## LostBooks:
 
@@ -82,7 +92,7 @@ All commits **must** have a description in the notes of what they changed. This 
 Beta testers should report the results of any tests they do in the Discord's "Discussion-E" channel. The more detailed your descriptions, the better. Any bugs testers discover should be reported here in the issue tracker. 
 
 
-Current to-do list, Updated as development progresses:
+**Current to-do list, Updated as development progresses:**
 
 - [ ] Disable all HBM weapon and explosive recipes that use the assembler. 
 - [ ] Finalize Mars and Earth building style. 
