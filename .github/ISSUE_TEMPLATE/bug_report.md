@@ -33,7 +33,7 @@ replaceText
 ## **Steps to reproduce:**
 1.
 2.
-3.....
+3. ....
 
 ## **Provide attachments or links to your latest log file, and crash report if your game crashed. We will instantly close any issue that does not provide these files! (Only use a temporary paste site if you can set the "delete after" time to >=1 year):**
 [URL or Attachment] 
