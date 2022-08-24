@@ -52,16 +52,16 @@ Remember to make sure you check which branch and file path you are currently on 
 
 For writers of the team. This is where all .book files go. **Make sure you read the format.txt file** for useful formatting tips and to learn the limitations of the LostBooks mod. 
 
-All contributers will be credited in the authors file in the primary directory of LostBooks, but if you want to be credited for specific works you upload, it is up to you to do so. 
+All contributers will be credited in the authors file in the primary directory of LostBooks, but if you want to be credited for each specific works you upload, it is up to you to do so. 
 To do this, download the current authors.txt file (check GitHub references channel for how), and then add the name of any books you submit under the section for your username, using one line per book (you can commit changes to authors.txt as many times as is needed to list your contributions). 
-If the authors.txt file in the Main branch has been edited since you copied it, you will be asked to resolve conflicts before you can commit your version of the file. Simply click on the resolve conflicts button and move some stuff around (don't mess up the formatting or move other peoples lines). Don't forget to remove the text inserted by GitHub marking the moved lines. 
+If the authors.txt file in the Main branch has been edited since you copied it, you will be asked to resolve conflicts before you can commit your version of the file. Simply click on the resolve conflicts button (or, preferably, resolve manually) and move some stuff around (don't mess up the formatting or move other peoples lines). Don't forget to remove the text inserted by GitHub marking the moved lines. 
 
 As for books themselves, they are split into two folders/ categories: *common*, and *unique*. Any books in the common folder can be dropped multiple times, based on chance. Books in the unique folder will only drop **once per player, per world.** So determine the purpose of your book before choosing which folder to submit to. 
-Things like news paper articles, "non-special" short stories, or things you would expect to find multiple times should all go in common. Something like a lab report dropped by a zombie, or any journals, should go in unique. Logically only one copy of these would exist. 
-As far as the length of .book files go, you should limit them to under 1000 words, and they should never exceed 2000. If your book is longer than this, you must introduce soem kind of scene break, torn of section that is continued in the next volume, etc. Book files that are all volumes or parts of a single book should go in a folder inside common or unique, e.g *LostBooks/common/theMarsIncident* (folder name must not contain numerics!). 
+Things like news paper articles, "non-special" short stories, or things you would expect to find multiple times should all go in common. Something like a journal should go in unique. Logically only one copy of these would exist. 
+As far as the length of .book files go, you should limit them to under 1000 words, and they should never exceed 2000. If your book is longer than this, you must introduce some kind of scene break, torn off section that is continued in the next volume, etc. Book files that are all volumes or parts of a single book should go in a folder inside common or unique, e.g *LostBooks/common/TheMarsIncident/.book files* (folder name must not contain numerics!). 
 This helps reduce clutter, but do note that this does sort of change the drop chance. E.g when a book from the common folder is dropped, they are all rolled dependent on their weight. Folders however are considered one book. If the roll lands on that folder, a second roll is then determined to decide which book in the folder is dropped. 
 
-*You should follow the naming conventions laid out in format.txt, and should avoid using numbers in the name of the file. When uploading your files, add a description to the commit notes of what the book is about, whether is whitelisted for certain mobs, and any relevant lore it pulls from or adds to (to avoid contradictions from differnet authors).* 
+*You should follow the naming conventions laid out in format.txt, and should avoid using numbers in the name of the file. When uploading your files, add a description to the commit notes of what the book is about, whether it is whitelisted for certain mobs, and any relevant lore it pulls from or adds to (to avoid contradictions from differnet authors).* 
 
 The last thing you can do with your books, is control their drop conditions using a .txt file and giving it a name identical to the .book file that it is changing values for. The .txt file must be in the same directory as the .book file it's paired with. Things like how often the book drops relative to the others and which mobs they can drop from can be modified using these text files. For example; if a book is specific to a planet and should not be obtainable until reaching it, you can make it drop only from mobs on that planet (if it is an uninhabited planet then you can specify in your commit notes when you upload that the book must be added to a structure loot table). 
 Note that weight values that are extremely low, like 1, will cause the book to likely never be seen. Check the DropSettings text file in the LostBooks folder for a more detailed explenation of how to do this, and **do not use weights higher than 100.**  
@@ -77,7 +77,7 @@ If you have experience editing flan packs, then you know what this is for. If yo
 
 
 For all the script files. **FILES UPLOADED HERE MUST END WITH THE EXTENDED .zs.txt EXTENSION OR THEY WON'T BE APPROVED!** You will have to change the extention to just .zs when you download the file for client use. 
-If you are adding a new script file that doesn't already exist, each mod or major function should have its own file. E.g any removals or modifications to Minecraft recipes should go in Minecraft.zs, Thermal expansion in Thermal.zs, etc. For mods like Advanced Rocketry, it may be necessary to seperate its machine recipes into seperate files for each one. Never mix recipes with other script functions, these should each go in their own file (compatSkills, JEI edits, etc). 
+If you are adding a new script file that doesn't already exist, each mod or major function should have its own file. E.g any removals or modifications to Minecraft recipes should go in MinecraftRemoval.zs, Thermal expansion in ThermalEdit.zs, etc. For mods like Advanced Rocketry, it may be necessary to seperate its machine recipes into seperate files for each one. Never mix recipes with other script functions, these should each go in their own file (compatSkills, JEI edits, etc). 
 For things that aren't obvious like non recipe scripts, loops, or other functions; remember to add in file comments to make sure other devs reading your scripts know what does what. 
 *Footnote: Where possible, use recipes.remove(<ID>) instead of typing out the full recipe with all its compenents. This abbreviation works in most cases and makes things more readable. Only use the longer removal script that specifies the recipe items if this doesn't work (sometimes it doesn't).*
 
@@ -106,7 +106,7 @@ Beta testers should report the results of any tests they do in the Discord's "Di
 - [ ] Finish music file conversions. 
 - [ ] Create text log console interface program for ComputerCraft. 
 - [ ] Create missile targeting calculator program for manual target designators. 
-- [ ] Test AR oxygen system in warp space. 
+- [x] Test AR oxygen system in warp space. 
 - [ ] Test jumping with AR oxygen. 
 - [ ] Test Reborn mobs latency with high mob counts. 
 - [ ] Test AR station dimension latency and observatories. 
@@ -115,9 +115,9 @@ Beta testers should report the results of any tests they do in the Discord's "Di
 - [ ] Test squid spawning with PVJ squid block enabled, and with squid spawning replaced with inControl. 
 - [ ] Test all HBM machines (and doors) with warpdrive jumping and rotation. Report seperately and condition of multiblocks post jump.
 - [ ] Test tps with pumps that physically consume water. 
-- [ ] Test ~~spiegers~~ Forge pregenerator with all DIMs. 
+- [ ] Test Forge pregenerator with all DIMs. 
 - [ ] Test HBM geysers in unloaded chunks causing extreme particle lag when reloaded after a while, issue #14 (fixed in last PR, test to confirm issue is fixed): https://github.com/TheOriginalGolem/Hbm-s-Nuclear-Tech-GIT/issues/14 
 - [ ] Test reproducing issues related to JEID to confirm safe use: https://github.com/DimensionalDevelopment/JustEnoughIDs/issues
-- [ ] Test hill variant biome generation to confirm whether local issue [#14](https://github.com/NoMoreUsernames999/The-Expanse-Modpack/issues/14) is a bug or not.
+- [x] Test hill variant biome generation to confirm whether local issue [#14](https://github.com/NoMoreUsernames999/The-Expanse-Modpack/issues/14) is a bug or not.
   
  
