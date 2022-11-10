@@ -13,7 +13,7 @@ When providing logs, you must close the game after the bug happens (if it didn't
 
 ===================================
 The title of this submission must be a brief description of the bug to make it easier to find. 
-Please assign your submission to a project in the menu bar to the right (Not required, but saves me time). Click on projects, repository, and then on "bug tracking" if this is a bug report, or "project organization" if this is a suggestion. This helps us organize them.
+PLEASE ASSIGN YOUR SUBMISSION TO A PROJECT IN THE MENU BAR TO THE RIGHT! (It saves me time. I will not like you if you don't >_>). Click on projects, repository, and then on "bug tracking" if this is a bug report, or "project organization" if this is a suggestion. This helps us organize them.
 ===================================
 
 Please provide the requested information (if we ask for versions, do not just say latest). If you do not, your issue will simply be ignored and closed. You may be asked by a dev to provide additional information. If you do not provide additional information within a reasonable window of time, your issue will also be closed. 
