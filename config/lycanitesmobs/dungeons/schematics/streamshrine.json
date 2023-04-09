@@ -1,10 +1,10 @@
 {
-  "name": "aberrantstation",
+  "name": "streamshrine",
   "loadDefault": true,
-  "sectorCountMin": 20,
-  "sectorCountMax": 30,
+  "sectorCountMin": 5,
+  "sectorCountMax": 10,
   "corridorToCorridorChance": 0.1,
-  "roomToRoomChance": 0.8,
+  "roomToRoomChance": 0.5,
   "conditions": [
     {
       "type": "world",
@@ -13,9 +13,7 @@
       ],
       "dimensionListType": "whitelist",
       "biomeTags": [
-        "spooky",
-        "mountain",
-        "cold"
+        "ocean"
       ],
       "biomeTagListType": "whitelist"
     }
@@ -32,8 +30,9 @@
       "cactus"
     ]
   },
+  "canGenerateAsTower": false,
   "themes": [
-    "aberrant"
+    "stream"
   ],
   "entrances": [
     "entrancebasic"
@@ -41,9 +40,7 @@
   "rooms": [
     "roombasic",
     "roombasicloot",
-    "roombasicmob",
-    "roombasicpit",
-    "roomdiamondpit"
+    "roombasicmob"
   ],
   "corridors": [
     "corridorbasic",
@@ -90,60 +87,49 @@
   ],
   "mobSpawns": [
     {
-      "mobId": "lycanitesmobs:trite",
+      "mobId": "lycanitesmobs:ioray",
       "weight": 14
     },
     {
-      "mobId": "lycanitesmobs:spectre",
-      "weight": 8
+      "mobId": "lycanitesmobs:abaia",
+      "weight": 14
     },
     {
-      "mobId": "lycanitesmobs:wraamon",
-      "weight": 4,
-      "dungeonLevelMin": 1
-    },
-    {
-      "mobId": "lycanitesmobs:chupacabra",
-      "weight": 4,
+      "mobId": "lycanitesmobs:roa",
+      "weight": 14,
       "dungeonLevelMin": 2
     },
     {
-      "mobId": "lycanitesmobs:darkling",
-      "weight": 14,
+      "mobId": "lycanitesmobs:aglebemu",
+      "weight": 6,
+      "dungeonLevelMin": 2
+    },
+    {
+      "mobId": "lycanitesmobs:abtu",
+      "weight": 8,
       "dungeonLevelMin": 3
     },
     {
-      "mobId": "lycanitesmobs:grigori",
-      "weight": 14,
+      "mobId": "lycanitesmobs:lacedon",
+      "weight": 4,
       "dungeonLevelMin": 3
     },
     {
-      "mobId": "lycanitesmobs:astaroth",
-      "weight": 1,
+      "mobId": "lycanitesmobs:skylus",
+      "weight": 4,
       "dungeonLevelMin": 4
     },
     {
-      "mobId": "lycanitesmobs:trite",
-      "weight": 14,
-      "subspecies": 1,
-      "dungeonLevelMin": 4
-    },
-    {
-      "mobId": "lycanitesmobs:grell",
+      "mobId": "lycanitesmobs:dweller",
       "weight": 4,
       "dungeonLevelMin": 5
     },
     {
-      "mobId": "lycanitesmobs:beholder",
-      "weight": 1,
-      "dungeonLevelMin": 5
-    },
-    {
-      "mobId": "lycanitesmobs:wraamon",
+      "mobId": "lycanitesmobs:roa",
       "weight": 1,
       "variant": 1,
-      "mobNameTag": "Experiment 69R",
-      "mobSizeScale": 6,
+      "mobNameTag": "Bruce",
+      "mobSizeScale": 4,
       "naturalDespawn": "false",
       "mobLevel": 100,
       "spawnAsBoss": true,
@@ -152,94 +138,56 @@
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "minecraft:diamond",
-          "minAmount": 3,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_beast",
+          "item": "lycanitesmobs:soulstone_aquatic",
           "amountMultiplier": false,
           "bonusAmount": false
         }
       ]
     },
     {
-      "mobId": "lycanitesmobs:astaroth",
+      "mobId": "lycanitesmobs:thresher",
       "weight": 1,
-      "mobNameTag": "Arachnotron",
-      "mobSizeScale": 1.8,
+      "variant": 1,
+      "mobNameTag": "The Loch Ness",
+      "mobSizeScale": 1.5,
       "naturalDespawn": "false",
-      "mobLevel": 125,
+      "mobLevel": 100,
       "spawnAsBoss": true,
       "dungeonLevelMin": 3,
-      "dungeonLevelMax": 3,
-      "dungeonBoss": true,
-      "mobDrops": [
-        {
-          "item": "lycanitesmobs:astarothclaw",
-          "amountMultiplier": false
-        },
-        {
-          "item": "minecraft:diamond",
-          "minAmount": 10,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_aberration",
-          "amountMultiplier": false,
-          "bonusAmount": false
-        }
-      ]
-    },
-    {
-      "mobId": "lycanitesmobs:chupacabra",
-      "weight": 1,
-      "variant": 3,
-      "mobNameTag": "Anarchical Hound",
-      "mobSizeScale": 2,
-      "naturalDespawn": "false",
-      "mobLevel": 5,
-      "spawnAsBoss": true,
-      "dungeonLevelMin": 4,
       "dungeonLevelMax": 4,
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "lycanitesmobs:soulstone_beast",
-          "amountMultiplier": false,
-          "bonusAmount": false
+          "item": "minecraft:diamond",
+          "minAmount": 10,
+          "amountMultiplier": false
         },
         {
-          "item": "lycanitesmobs:chaosorbcharge",
+          "item": "lycanitesmobs:soulstone_aquatic",
           "amountMultiplier": false,
-          "minAmount": 10,
-          "maxAmount": 20
+          "bonusAmount": false
         }
       ]
     },
     {
-      "mobId": "lycanitesmobs:astaroth",
+      "mobId": "lycanitesmobs:herma",
       "weight": 1,
-      "subspecies": 1,
-      "mobNameTag": "Asakku",
-      "mobSizeScale": 2.5,
+      "variant": 2,
+      "mobSizeScale": 5,
+      "mobNameTag": "Tamatoa",
       "naturalDespawn": "false",
-      "mobLevel": 250,
+      "mobLevel": 100,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,
       "mobDrops": [
-        {
-          "item": "lycanitesmobs:astarothclaw",
-          "amountMultiplier": false
-        },
         {
           "item": "minecraft:diamond",
           "minAmount": 50,
           "amountMultiplier": false
         },
         {
-          "item": "lycanitesmobs:soulstone_aberration",
+          "item": "lycanitesmobs:soulstone_aquatic",
           "amountMultiplier": false,
           "bonusAmount": false
         }

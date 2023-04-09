@@ -1,5 +1,5 @@
 {
-  "name": "aberrantstation",
+  "name": "aberrantstation_random",
   "loadDefault": true,
   "sectorCountMin": 20,
   "sectorCountMax": 30,
@@ -9,28 +9,21 @@
     {
       "type": "world",
       "dimensionIds": [
-        0
+        1,
+        -1
       ],
       "dimensionListType": "whitelist",
       "biomeTags": [
-        "spooky",
-        "mountain",
-        "cold"
+        "nether",
+        "end"
       ],
       "biomeTagListType": "whitelist"
     }
   ],
   "placer": {
-    "type": "surface",
-    "materials": [
-      "air",
-      "wood",
-      "leaves",
-      "plants",
-      "vine",
-      "snow",
-      "cactus"
-    ]
+    "type": "random",
+    "minY": 64,
+    "maxY": 80
   },
   "themes": [
     "aberrant"
