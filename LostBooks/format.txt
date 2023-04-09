@@ -1,30 +1,0 @@
-Title of the book.
-Author of the book. 
-Body text. Anything from the third line on will be what shows up in the pages of the book. The first and second line cannot have a space between them, but you can have spaces between the second and third. 
-The first line is the title of the book and is what shows up as the name of the book item in game. 
-The second name is what shows up in the tooltip as the author of the book and is appended by the word "by," so don't include that in the author line. Only the authors name. 
-This means it is limited to 30 characters (including spaces). Anything longer will cause the book to error out. 
-The text in the book will just appear further down on the first page, which is useful for formatting. 
-These lines can be as long as you want, they will just span multiple pages. 
-Though it helps to keep them shorter to make it easier to read in the text editor. Note that if the line is really short,
-like this, 
-It will create a new line in the book in game. Use line breaks where necessary to make books easier to read. 
-
-You can also do this to create spaces between paragraphs or blocks of paragraphs,
-
-which will create spaces between the text.
-
-The only formatting lost books mod supports is: 
-
-New lines, like above,
-  Spaces, 
-And new pages. A new page can be started using this symbol at the end of a line of text.Any following line, like this one, will appear on the next page of the in game book (They must be connected like this. If you hit enter after using the arrow symbol,
-the first line on the new page will be one line down from the top. Useful if writing journal entries, or scene breaks. E.g: 
-Entry 1: body text.Entry 2: 
-this will appear on the next page.
-
-Currently no other formatting is supported. Don't forget to set your text editor to plain text, or else the book will show up blank in game. 
-The actual name of the .book file doesn't matter as long as it doesn't end with a number, but give it a descriptive name like (e.g if it's a new article containing some lore, and it's split into four books) newsArticleOne.book, and not something like one.book.
-
-Actual stories should not span more than 10k words max. Stories this large must be split across multiple .book files due to size limitations and the fact that nobody wants to spend an hour reading a single book. And the more there are, the lower the chance of finding them all.
-The actual formatting and writing of a book must be done in a .txt file using something like notepad or text editor, and must be in plain text format. When you save it, save it with the extension .book instead of .txt. 
