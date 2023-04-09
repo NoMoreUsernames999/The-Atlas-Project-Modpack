@@ -1,0 +1,404 @@
+
+#General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = 949722074144972861
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = true
+	#Internal Version Number. NO TOUCHY!
+	version = 16
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is starting engines."
+	#The second line of text under the app name
+	state = "Priming..."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "largeimage"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "The Atlas Project."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver%."
+	#The buttons to display on Discord
+	[[init.buttons]]
+		label = "Modpack Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/the-atlas-project"
+
+	[[init.buttons]]
+		label = "Modpack Trailer: (Placeholder)"
+		url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is plotting a course."
+	#The seconds line of text under the app name
+	state = "Searching the stars..."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "largeimage"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "The Atlas Project."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver%."
+	#The buttons to display on Discord
+	[[main_menu.buttons]]
+		label = "Modpack Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/the-atlas-project"
+
+	[[main_menu.buttons]]
+		label = "Modpack Trailer: (Placeholder)"
+		url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is scanning fleets."
+	#The second line of text under the app name
+	state = "Radar sweep in progress..."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "largeimage"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "The Atlas Project."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver%."
+	#The buttons to display on Discord
+	[[server_list.buttons]]
+		label = "Modpack Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/the-atlas-project"
+
+	[[server_list.buttons]]
+		label = "Modpack Trailer: (Placeholder)"
+		url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm."
+	#The second line of text under the app name
+	state = "Browsing Realms."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed."
+	#The buttons to display on Discord
+	[[realms_list.buttons]]
+		label = "Modpack Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/the-atlas-project"
+
+	[[realms_list.buttons]]
+		label = "Modpack Trailer: (Placeholder)"
+		url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is engaging jump drive."
+	#The second line of text under the app name
+	state = "Traveling at light speed."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "largeimage"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "The Atlas Project."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver%."
+	#The buttons to display on Discord
+	[[join_game.buttons]]
+		label = "Modpack Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/the-atlas-project"
+
+	[[join_game.buttons]]
+		label = "Modpack Trailer: (Placeholder)"
+		url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Currently on %world%."
+	#The second line of text under the app name
+	state = "Flying solo."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "largeimage"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "The Atlas Project."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver%."
+	#The buttons to display on Discord
+	[[single_player.buttons]]
+		label = "Modpack Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/the-atlas-project"
+
+	[[single_player.buttons]]
+		label = "Modpack Trailer: (Placeholder)"
+		url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %servername% with %players% players."
+	#The second line of text under the app name
+	state = "Flying with the fleet."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "largeimage"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "The Atlas Project."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver%."
+	#The buttons to display on Discord
+	[[multi_player.buttons]]
+		label = "Modpack Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/the-atlas-project"
+
+	[[multi_player.buttons]]
+		label = "Modpack Trailer: (Placeholder)"
+		url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %realmname%."
+	#The second line of text under the app name
+	state = "Playing on a Realm."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%."
+	#The buttons to display on Discord
+	[[realms.buttons]]
+		label = "Modpack Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/the-atlas-project"
+
+	[[realms.buttons]]
+		label = "Modpack Trailer: (Placeholder)"
+		url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "Playing The Atlas Project."
+	#The second line of text under the app name
+	state = "Exploring the unknown."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "largeimage"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "The Atlas Project."
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Minecraft %mcver%."
+	#The buttons to display on Discord
+	[[generic.buttons]]
+		label = "Modpack Page"
+		url = "https://www.curseforge.com/minecraft/modpacks/the-atlas-project"
+
+	[[generic.buttons]]
+		label = "Modpack Trailer: (Placeholder)"
+		url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = true
+
+	#The Dimensions to override
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is on Earth."
+		state = "In the Sol system."
+		largeImageKey = "overworld"
+		largeImageText = "Hot Terra. Not breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Netherealm."
+		state = "Fighting demons."
+		largeImageKey = "nether"
+		largeImageText = "A Hell-like dimension."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Luna"
+		description = "%player% is on Luna."
+		state = "In the Sol system."
+		largeImageKey = "luna"
+		largeImageText = "Cold Selena. Not breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Mars"
+		description = "%player% is on Mars."
+		state = "In the Sol system."
+		largeImageKey = "mars"
+		largeImageText = "Cold Selena. Not breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Venus"
+		description = "%player% is on Venus."
+		state = "In the Sol system."
+		largeImageKey = "venus"
+		largeImageText = "Hot Selena. Not breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Enceladus"
+		description = "%player% is on Enceladus."
+		state = "In the Sol system."
+		largeImageKey = "enceladus"
+		largeImageText = "Frozen Ice. Not breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "IO"
+		description = "%player% is on IO."
+		state = "In the Sol system."
+		largeImageKey = "io"
+		largeImageText = "Cold Selena. Not breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Arrakis"
+		description = "%player% is on Arrakis."
+		state = "In the Epsilon Eridani system."
+		largeImageKey = "arrakis"
+		largeImageText = "Hot Desert. Breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Chibirus"
+		description = "%player% is on Chibirus."
+		state = "In the Epsilon Eridani system."
+		largeImageKey = "chibirus"
+		largeImageText = "Cold Desert. Not breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Pythrea"
+		description = "%player% is on Pythrea."
+		state = "In the 51-Pegasi system."
+		largeImageKey = "pythrea"
+		largeImageText = "Temperate Oceanic. Breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Cytan"
+		description = "%player% is on Cytan."
+		state = "In the Torus-358 system."
+		largeImageKey = "cytan"
+		largeImageText = "Hot Selena. Not breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Argius"
+		description = "%player% is on Argius."
+		state = "In the Torus-358 system."
+		largeImageKey = "argius"
+		largeImageText = "Temperate Oceanic. Breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Torus_D"
+		description = "%player% is on Torus_D."
+		state = "In the Torus-358 system."
+		largeImageKey = "torusd"
+		largeImageText = "Frozen Selena. Not breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Ganes"
+		description = "%player% is on Ganes."
+		state = "In the Torus-358 system."
+		largeImageKey = "ganes"
+		largeImageText = "Cold Selena. Not breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Plocury"
+		description = "%player% is on Plocury."
+		state = "In the Tau Ceti system."
+		largeImageKey = "plocury"
+		largeImageText = "Hot Terra. Breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "Titan"
+		description = "%player% is on Titan."
+		state = "In the Sol system."
+		largeImageKey = "titan"
+		largeImageText = "Cold Selena. Not breathable."
+		smallImageKey = "mclogo"
+		smallImageText = "Minecraft %mcver%."
+		buttons = []

@@ -80,3 +80,4 @@ tailslibrary.json
 /*.dll
 *.log
 /warpDrive_schematics/
+/schematics/
