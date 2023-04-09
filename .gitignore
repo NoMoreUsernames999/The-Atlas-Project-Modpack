@@ -75,3 +75,6 @@ patchouli_data.json
 /config/scavenge/I*.txt
 /config/Loot\ Overhaul/Useful\ Info/
 /config/fancymenu/locals/*.local
+WailaErrorOutput.txt
+tailslibrary.json
+/*.dll
