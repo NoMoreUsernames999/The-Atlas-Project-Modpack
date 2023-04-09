@@ -78,3 +78,4 @@ patchouli_data.json
 WailaErrorOutput.txt
 tailslibrary.json
 /*.dll
+*.log
