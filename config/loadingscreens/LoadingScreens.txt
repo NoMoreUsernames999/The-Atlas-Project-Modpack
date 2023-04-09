@@ -1,0 +1,10 @@
+background = addStretchedTexture("top_left", "menu:background/bg.png")
+background.setRelRender(1, 1)
+
+tips = addRandomText("bottom_left")
+tips.setAbsXOffset(20)
+tips.setAbsYOffset(-10)
+tips.addTip("Plunging toilets.")
+tips.addTip("Extrapolating extrapolators.")
+tips.addTip("Launching rockets.")
+tips.addTip("Loading next loading screen tip.")

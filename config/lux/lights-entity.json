@@ -1,0 +1,13 @@
+{
+	"lumen:ember": [
+        {
+            "color": {
+                "red": "0",
+                "green": "0",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "4 + 3 * flicker(5000)"
+        }
+    ]
+}

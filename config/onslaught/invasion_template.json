@@ -1,0 +1,77 @@
+{
+"unique_invasion_id": {
+	"name": "Invasion Name",
+    
+    "selector": {
+    	"dimension": { 
+    		"type": "include", 
+    		"dimensions": [0]
+    	},
+    	"weight": 100, 
+    	"gamestages": { 
+      		…
+    	}
+    },
+
+    "messages": {
+    	"start": "Start!",
+    	"end": "End!",
+    	"warn": {
+    		"message": "Warn!",
+    		"ticks": 6000
+    	}
+    },
+
+    "commands": 
+    {
+    	"start": [
+        	"/say My invasion is starting!"
+    	],
+    	"end": [
+        	"/say My invasion has ended!"
+    	],
+    	"staged": [
+        	"complete": 0.25,
+    		"commands": [
+            	"/say My invasion is 25% complete!"
+    		] 
+      ]
+    },
+
+    "waves": [
+    	{ 
+    		"delayTicks": [Int,Int],
+    		"groups": [
+    			{
+        		"weight": 100,
+        		"forceSpawn": true,
+        		"mobs": [
+        			{
+            		"id": "ID",
+            		"count": [int,int],
+      					"spawn": {
+    							“type”: “ground”,
+   								"rangeXZ": [20,32],
+   								"rangeY": [1,16]
+  	 						}
+							}
+						]
+        	}
+      	],
+    		"secondaryMob": {
+					“id”: “MOB”,
+					"count": [int,int],
+					"spawn": {
+    				“type”: “ground”, 
+    				"rangeXZ": [5,16],
+    				"rangeY": [1,16]
+  	 			} 
+				}  
+			}
+		]
+	}
+}
+
+
+
+

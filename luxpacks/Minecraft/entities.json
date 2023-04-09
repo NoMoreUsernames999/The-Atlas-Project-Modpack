@@ -1,0 +1,321 @@
+{
+    "archaicguns:redflare": [
+        {
+            "color": {
+                "red": "0.98",
+                "green": "0.01",
+                "blue": "0.01",
+                "alpha": "1"
+            },
+            "radius": "22"
+        }
+    ],
+    "archaicguns:redflarebright": [
+        {
+            "color": {
+                "red": "0.98",
+                "green": "0.01",
+                "blue": "0.01",
+                "alpha": "1"
+            },
+            "radius": "38"
+        }
+    ],
+    "archaicguns:purpleflare": [
+        {
+            "color": {
+                "red": "0.74",
+                "green": "0.4",
+                "blue": "0.96",
+                "alpha": "1"
+            },
+            "radius": "22"
+        }
+    ],
+    "archaicguns:purpleflarebright": [
+        {
+            "color": {
+                "red": "0.74",
+                "green": "0.4",
+                "blue": "0.96",
+                "alpha": "1"
+            },
+            "radius": "38"
+        }
+    ],
+    "archaicguns:blueflare": [
+        {
+            "color": {
+                "red": "0.04",
+                "green": "0.06",
+                "blue": "0.96",
+                "alpha": "1"
+            },
+            "radius": "22"
+        }
+    ],
+    "archaicguns:blueflarebright": [
+        {
+            "color": {
+                "red": "0.04",
+                "green": "0.06",
+                "blue": "0.96",
+                "alpha": "1"
+            },
+            "radius": "38"
+        }
+    ],
+    "archaicguns:cyanflare": [
+        {
+            "color": {
+                "red": "0.04",
+                "green": "0.96",
+                "blue": "0.96",
+                "alpha": "1"
+            },
+            "radius": "22"
+        }
+    ],
+    "archaicguns:cyanflarebright": [
+        {
+            "color": {
+                "red": "0.04",
+                "green": "0.96",
+                "blue": "0.96",
+                "alpha": "1"
+            },
+            "radius": "38"
+        }
+    ],
+    "archaicguns:greenflare": [
+        {
+            "color": {
+                "red": "0.03",
+                "green": "0.99",
+                "blue": "0.03",
+                "alpha": "1"
+            },
+            "radius": "22"
+        }
+    ],
+    "archaicguns:greenflarebright": [
+        {
+            "color": {
+                "red": "0.06",
+                "green": "0.96",
+                "blue": "0.04",
+                "alpha": "1"
+            },
+            "radius": "38"
+        }
+    ],
+    "archaicguns:yellowflare": [
+        {
+            "color": {
+                "red": "0.94",
+                "green": "0.7",
+                "blue": "0.04",
+                "alpha": "1"
+            },
+            "radius": "22"
+        }
+    ],
+    "archaicguns:yellowflarebright": [
+        {
+            "color": {
+                "red": "0.94",
+                "green": "0.7",
+                "blue": "0.04",
+                "alpha": "1"
+            },
+            "radius": "38"
+        }
+    ],
+    "archaicguns:orangeflare": [
+        {
+            "color": {
+                "red": "0.94",
+                "green": "0.35",
+                "blue": "0.04",
+                "alpha": "1"
+            },
+            "radius": "22"
+        }
+    ],
+    "archaicguns:orangeflarebright": [
+        {
+            "color": {
+                "red": "0.94",
+                "green": "0.35",
+                "blue": "0.04",
+                "alpha": "1"
+            },
+            "radius": "38"
+        }
+    ],
+    "archaicguns:whiteflare": [
+        {
+            "color": {
+                "red": "0.96",
+                "green": "0.96",
+                "blue": "0.96",
+                "alpha": "1"
+            },
+            "radius": "22"
+        }
+    ],
+    "archaicguns:whiteflarebright": [
+        {
+            "color": {
+                "red": "0.96",
+                "green": "0.96",
+                "blue": "0.96",
+                "alpha": "1"
+            },
+            "radius": "38"
+        }
+    ],
+    "lumen:companion_orb_a": [
+        {
+            "color": {
+                "red": "1",
+                "green": "1",
+                "blue": "1",
+                "alpha": "1"
+            },
+            "radius": "18"
+        }
+    ],
+    "lumen:companion_orb": [
+        {
+            "color": {
+                "red": "1.0",
+                "green": "0.5",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "22"
+        }
+    ],
+    "lumen:rad_flame": [
+        {
+            "color": {
+                "red": "0.8",
+                "green": "0.1",
+                "blue": "0.3",
+                "alpha": "1"
+            },
+            "radius": "19 + 8 * flicker(5000)"
+        }
+    ],
+    "lumen:will_o_wisp": [
+        {
+            "color": {
+                "red": "0.1",
+                "green": "0.8",
+                "blue": "0.9",
+                "alpha": "1"
+            },
+            "radius": "19 + 8 * flicker(5000)"
+        }
+    ],
+    "lumen:faerie": [
+        {
+            "color": {
+                "red": "1.0",
+                "green": "0.6",
+                "blue": "0.6",
+                "alpha": "1"
+            },
+            "radius": "19 + 8 * flicker(5000)"
+        }
+    ],
+    "thaumcraft:wisp": [
+        {
+            "color": {
+                "red": "0.4 + rng(0.5)",
+                "green": "0.4 + rng(0.5)",
+                "blue": "0.4 + rng(0.5)",
+                "alpha": "1"
+            },
+            "radius": "8 + 8*rng(1)"
+        }
+    ],
+    "mowziesmobs:lantern": [
+        {
+            "color": {
+                "red": "0.6",
+                "green": "0.95",
+                "blue": "0.1",
+                "alpha": "1"
+            },
+            "radius": "36"
+        }
+    ],
+    "mod_lavacow:salamander": [
+        {
+            "color": {
+                "red": "0.9",
+                "green": "0.8",
+                "blue": "0.1",
+                "alpha": "1"
+            },
+            "radius": "4"
+        }
+    ],
+    "mod_lavacow:zombiemushroom": [
+        {
+            "color": {
+                "red": "0.1",
+                "green": "0.7",
+                "blue": "0.9",
+                "alpha": "1"
+            },
+            "radius": "2"
+        }
+    ],
+    "embers:ancient_golem": [
+        {
+            "color": {
+                "red": "0.8",
+                "green": "0.3",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "2"
+        }
+    ],
+    "minecraft:magma_cube": [
+        {
+            "color": {
+                "red": "rng(0.6) + 0.4",
+                "green": "rng(0.1) + 0.3",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "4 + 3 * flicker(5000)"
+        }
+    ],
+    "minecraft:blaze": [
+        {
+            "color": {
+                "red": "rng(0.2) + 0.8",
+                "green": "rng(0.3) + 0.6",
+                "blue": "0",
+                "alpha": "1"
+            },
+            "radius": "6 + 4 * flicker(2000)"
+        }
+    ],
+    "minecraft:enderman": [
+        {
+            "color": {
+                "red": "0.49",
+                "green": "0",
+                "blue": "1",
+                "alpha": "1"
+            },
+            "radius": "2 + flicker(2000)"
+        }
+    ]
+}

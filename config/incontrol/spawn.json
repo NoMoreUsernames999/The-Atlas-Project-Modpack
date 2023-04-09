@@ -1,0 +1,21 @@
+[
+ {
+    "mob": ["fossil:fossil.velociraptor", "fossil:fossil.mosasaurus", "lycanitesmobs:stryder", "rebornmod:entities.mosasaurus"],
+    "seesky": true,
+    "onjoin": true,
+    "angry": true,
+    "healthmultiply": 1.5,
+    "speedmultiply": 1.5
+  },
+   {
+    "dimension": 105,
+    "mob": ["fossil:fossil.megalodon"],
+    "result": "deny"
+  }, 
+  {
+    "dimension": 105,
+    "mob": ["fossil:fossil.megalodon"],
+    "biome": "expansebiomeresource:torus2kelp",
+    "result": "allow"
+  }
+]

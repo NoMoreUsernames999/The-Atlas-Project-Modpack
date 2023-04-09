@@ -1,0 +1,24 @@
+{
+  "ID_name": {
+    "id": "mob_id",
+    "effects": [
+      {
+        "id": "potion_id",
+        "duration": tick,
+        "amplifier": int,
+        "showParticles": true 
+      }
+    ],
+    "nbt": {
+      "ForgeData": {
+        "Onslaught": {
+          "CustomAI": {
+          ...
+          }
+        }
+      }
+    }
+  },
+
+
+}

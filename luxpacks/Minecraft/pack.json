@@ -1,0 +1,7 @@
+{
+	"api": 1,
+	"name": "Minecraft",
+	"authors": [ "Zeitheron" ],
+	"description": "Minecraft lighting pack used to demonstrate mod potential and provide colored lighting to vanilla MC.",
+	"dependencies": [ "forge@[14.23.5.2847,)", "minecraft" ]
+}
