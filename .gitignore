@@ -91,9 +91,5 @@ tailslibrary.json
 /cache/
 /asm/
 /acmedia/
-
-
-
-
-config/lycanitesmobs/version.cfg
-config/ichunutil.cfg
+/config/lycanitesmobs/version.cfg
+/config/ichunutil.cfg

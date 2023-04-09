@@ -24,7 +24,7 @@
     "biomeAcheron": 224
   },
   "spawning": {
-    "overworldSpawnsEnabled": false,
+    "overworldSpawnsEnabled": true,
     "autoSpawnsEnabled": true,
     "evolvedXenomorphSpawns": true,
     "spawnsAlien": [
