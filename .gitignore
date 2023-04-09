@@ -79,3 +79,4 @@ WailaErrorOutput.txt
 tailslibrary.json
 /*.dll
 *.log
+/warpDrive_schematics/
